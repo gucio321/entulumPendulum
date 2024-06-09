@@ -2,11 +2,9 @@
 
 Projekt na zaliczenie przedmiotu "Pakiety Obliczeniowe".
 
-## Q&A
+<!--
+### DISCLAIMER
 
-**Q:** Jak zrobić funkcję która leci w "runtime", tzn. co "klatkę"/określony czas wykonuje się aktualizując np. wykres (tworzenie animacji)
-
-
-<hr>
-
-**Q:** Jak przy zapisie generować kod aplikacji (dla `git diff`)
+Pomimo, że obliczenia w aplikacji zostały zoptymalizowane (dane liczbowe są genereowane tylko raz dla nowego ustawienia parametrów)
+to i tak aplikacja może "lagować" podczas wyświetlania danych na wykresie, co jest spowodowane brakiem optymalizacji po stronie MatLab'a.
+-->
